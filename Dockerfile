@@ -1,4 +1,4 @@
-FROM influxdb:1.3
+FROM influxdb:latest
 
 COPY pre-entry.sh /pre-entry.sh
 ENTRYPOINT ["/pre-entry.sh"]
